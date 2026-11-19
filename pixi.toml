@@ -1,0 +1,12 @@
+[workspace]
+authors = ["Max.McFarlane <max.mcfarlane@neso.energy>"]
+channels = ["conda-forge"]
+name = "barb"
+platforms = ["win-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.13.*"
+flask = ">=3.1.3,<4"
